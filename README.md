@@ -10,10 +10,12 @@ Build:
 `go build`
 
 Grab your bit.io API key:
-* Log into bit.io
-* Click the green "Connect" button in the upper left
-* Click on your API key to copy it
+* Log into bit.io and navigate to the database you would like to access
+* Click the green "Connect"
+* Click on your API key (the "Password" field in the connect menu) to copy it
 
 Run:
-`BITDOTIO_APIKEY=<your api key> ./bitdotio-golang-example`
+`BITDOTIO_APIKEY=<your api key> ./bitdotio-golang-example` to save the key to your environment.
+
+To run the program: `go run filename.go`
 
